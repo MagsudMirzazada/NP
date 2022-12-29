@@ -18,7 +18,7 @@
 	3.3. Close connection: FIN in the segment is set to 1 and other computer replies with ack and another FIN
 	4. Detecting lost packets: using a timeout option sender starts a timer and puts the packet in retransmission queue 
 	5. Handling out of order packets- when receiver sees higher sequence number it’s obvious that some packets are missing and receiver must deal with out of order packets, by reassembling them with sequence number.
-	------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------
   5)Compare the VPNs (protocols) and the functionality in network programming viewpoint
 	 PPTP -- Point-to-Point Tunneling Protocol
 	 L2TP -- Layer 2 Tunneling Protocol
@@ -50,7 +50,7 @@
 	OpenVPN is currently considered the top form of VPN tunneling protocol. That's because its encryption is especially strong. It's also adept at getting past firewalls.
 	SSTP
 	Secure Socket Tunneling Protocol is popular due to its full integration with every Microsoft operating system since Windows Vista SP 1. SSTP utilizes 2048-bit SSL/TLS certificates for authentication and 256-bit SSL keys for encryption. The biggest drawback to SSTP is that is basically a Microsoft-developed proprietary protocol and developers do not have access to the underlying code.
-	---------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------
   3)What TCP sockets mean? How to open socket with active/passive host? And
 	generally, what is the differences between active and passive sockets
 	TCP uses port numbers to distinguish different applications running at the same IP address, and it
