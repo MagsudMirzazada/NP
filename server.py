@@ -1,7 +1,7 @@
 'Chat Room Connection - Client-To-Client'
 import threading
 import socket
-host = '10.33.114.242'
+host = '127.0.0.1'
 port = 5555
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server.bind((host, port))
